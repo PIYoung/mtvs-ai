@@ -1,5 +1,2 @@
-.ipynb_checkpoints
-missions
-down
-ignore
+.*
 csvs
