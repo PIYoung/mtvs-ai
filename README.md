@@ -1,7 +1,14 @@
 # ai-study
 
-## 통계
+## jupyter notebook
 
-## 선형대수
+- common
+- deep_learning
+- machine_learning
+- mission
+- numpy
+- pandas
 
-## ML/DL
+## python
+
+## node
