@@ -1,4 +1,4 @@
-# ai-study
+# mtvs-ai
 
 ## jupyter notebook
 
