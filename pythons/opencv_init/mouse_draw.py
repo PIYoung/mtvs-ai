@@ -3,7 +3,6 @@ import numpy as np
 
 old_x = old_y = -1
 
-
 def on_mouse(event, x, y, flags, user_data):
     global old_x, old_y
 
