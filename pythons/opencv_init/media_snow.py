@@ -66,14 +66,14 @@ while True:
 
             if face_width > 0 and face_height > 0:
                 try:
-                    result = overlay_transparent(
+                    result_img = overlay_transparent(
                         frame,
                         face_img,
                         int(mean_xy[0] * iw),
                         int(mean_xy[1] * ih),
                         overlay_size=(face_width + 50, face_height + 50),
                     )
-                    frame = result
+                    frame = result_img
                 except Exception as e:
                     print(e)
 
