@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 
 def create_app():
@@ -6,7 +6,8 @@ def create_app():
 
     @app.route("/")
     def index():
-        return "Hello World!"
+        return render_template("index.html")
+        
 
     @app.route("/chat")
     def chat():
@@ -15,4 +16,4 @@ def create_app():
     return app
 
 
-# terminal: set FLASK_APP=package name, set FLASK_DEBUG=1 or 0
+# terminal: set FLASK_APP={package name}, set FLASK_DEBUG={1 or 0}
