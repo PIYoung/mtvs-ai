@@ -36,7 +36,7 @@ with mp_hands.Hands(
                 volume = abs(int(temp * 100))
 
                 # send_port의 주소로 접속한 유저들에게 데이터 전송
-                socket.sendto(str(volume).encode(), send_port)
+                # socket.sendto(str(volume).encode(), send_port)
 
                 cv2.putText(
                     img_rgb,
