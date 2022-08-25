@@ -1,7 +1,7 @@
 from turtle import delay
 import cv2
 
-v_cap = cv2.VideoCapture("images/flower.mp4")
+v_cap = cv2.VideoCapture("../images/flower.mp4")
 fps = round(v_cap.get(cv2.CAP_PROP_FPS))
 delay = round(1000 / fps)
 

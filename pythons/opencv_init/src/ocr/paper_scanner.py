@@ -55,7 +55,7 @@ def on_mouse(event, x, y, flags, param):
                 break
 
 
-src = cv2.imread("images/docsimg2.jpg")
+src = cv2.imread("../images/docsimg2.jpg")
 
 if src is None:
     print("Image load failed!")
