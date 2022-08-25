@@ -2,6 +2,9 @@
 
 ## R
 
+- 통계
+- 연관분석
+
 ## jupyter notebook
 
 - common
