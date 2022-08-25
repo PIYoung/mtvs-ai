@@ -11,6 +11,9 @@
 - numpy
 - pandas
 
+## node
+
 ## python
 
-## node
+- OpenCV
+- mediapipe
