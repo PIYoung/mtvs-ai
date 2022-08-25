@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
 
-src = cv2.imread("../images/hangul.png")
+src = cv2.imread("../../images/hangul.png")
 src = cv2.cvtColor(src, cv2.COLOR_BGR2RGB)
 
 # plt.imshow(src)

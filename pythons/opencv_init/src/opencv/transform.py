@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-src = cv2.imread("../images/business-card_640.jpg")
+src = cv2.imread("../../images/business-card_640.jpg")
 src = cv2.cvtColor(src, cv2.COLOR_BGR2RGB)
 
 w, h = 720, 480

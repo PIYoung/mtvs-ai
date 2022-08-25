@@ -9,7 +9,7 @@ p_time = 0
 mp_draw = mp.solutions.drawing_utils
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh()
-face_img = cv2.imread("../images/face1.png", cv2.IMREAD_UNCHANGED)
+face_img = cv2.imread("../../images/face1.png", cv2.IMREAD_UNCHANGED)
 
 
 def overlay_transparent(background_img, img_to_overlay_t, x, y, overlay_size=None):

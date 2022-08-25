@@ -6,7 +6,7 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 
-src = cv2.imread("../images/OpenCV_logo.png", cv2.IMREAD_GRAYSCALE)
+src = cv2.imread("../../images/OpenCV_logo.png", cv2.IMREAD_GRAYSCALE)
 
 if src is None:
     print("Image load failed!")

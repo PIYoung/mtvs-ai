@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-src = cv2.imread("../images/building.jpg")
+src = cv2.imread("../../images/building.jpg")
 edges = cv2.Canny(src, 50, 150)
 lines = cv2.HoughLinesP(edges, 1.0, np.pi / 180.0, 160, minLineLength=50, maxLineGap=5)
 dst = cv2.cvtColor(edges, cv2.COLOR_GRAY2BGR)
@@ -19,7 +19,7 @@ if lines is not None:
 # plt.imshow(dst)
 # plt.show()
 
-road_img = cv2.imread("../images/road1.jpg")
+road_img = cv2.imread("../../images/road1.jpg")
 road_img = cv2.cvtColor(road_img, cv2.COLOR_BGR2RGB)
 # plt.imshow(road_img)
 # plt.show()
