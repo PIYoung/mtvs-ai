@@ -10,7 +10,7 @@ gesture = {
     "3": "three",
     "4": "four",
     "5": "five",
-    "6": "siz",
+    "6": "six",
     "7": "rock",
     "8": "spiderman",
     "9": "yeah",
@@ -18,7 +18,7 @@ gesture = {
 }
 
 mp_hands = mp.solutions.mediapipe.python.solutions.hands
-mp_drawing = mp.solutions.mediapipe.python.solutions.drawing
+mp_drawing = mp.solutions.mediapipe.python.solutions.drawing_utils
 hands = mp_hands.Hands(
     max_num_hands=1, min_detection_confidence=0.5, min_tracking_confidence=0.5
 )
