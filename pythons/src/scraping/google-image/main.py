@@ -1,3 +1,4 @@
+# !pip install git+https://github.com/Joeclinton1/google-images-download.git
 from google_images_download import google_images_download
 
 
