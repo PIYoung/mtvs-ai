@@ -20,8 +20,8 @@ model.eval()
 model = model.to(device)
 
 
-def ai_image(img):
-    image = Image.open(img)
+def ai_image(file_stream):
+    image = Image.open(file_stream)
     image = transforms_test(image).unsqueeze(0).to(device)
 
     with torch.no_grad():
