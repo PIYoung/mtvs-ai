@@ -19,9 +19,10 @@ while True:
         face = gray_frame[y : y + h, x : x + w]
         roi = cv2.resize(face, (48, 48))
         pred = model.predict(roi[np.newaxis, :, :, np.newaxis])
+        percentage = str(np.max(pred) * 100)[:4]
         label = EMOTIONS_LIST[np.argmax(pred)]
 
-        cv2.putText(frame, label, (x, y), font, 1, (255, 255, 0), 2)
+        cv2.putText(frame, label + percentage, (x, y), font, 1, (255, 255, 0), 2)
         cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
 
     cv2.imshow("Facial Expression Recognition", frame)
