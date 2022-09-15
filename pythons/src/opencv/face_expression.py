@@ -29,4 +29,7 @@ while True:
     if cv2.waitKey(1) == 27:
         break
 
+    if cv2.waitKey(1) == 32:
+        cv2.imwrite("../../results/angry.png", frame)
+
 cv2.destroyAllWindows()
