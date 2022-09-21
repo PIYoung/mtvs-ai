@@ -4,4 +4,6 @@ __pycache__
 csvs
 _main.py
 
+torch-hybrid-tacotron2
+
 cifar*
